@@ -7,3 +7,5 @@
 6.1 线程池解决方案 √
 6.2 redis lettuce 解决方案 
 
+访问 http://localhost:8080/index
+
