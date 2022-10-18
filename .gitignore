@@ -32,3 +32,8 @@ build/
 ### VS Code ###
 .vscode/
 **.log
+**/mvnw.cmd
+**/mvnw
+java-dubbo/.gitignore
+java-springboot/.gitignore
+java-springcloud/.gitignore
