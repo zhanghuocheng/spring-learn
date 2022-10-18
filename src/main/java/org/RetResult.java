@@ -1,10 +1,9 @@
-package com.zhc.springlearn;
+package org;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.slf4j.MDC;
-
-import static com.zhc.springlearn.traceid.TraceIdFilter.TRACE_ID;
+import org.traceid.TraceIdFilter;
 
 @Data
 @AllArgsConstructor
@@ -22,7 +21,7 @@ public class RetResult<T> {
         this.code = code;
         this.msg = msg;
         this.data = data;
-        this.traceId = MDC.get(TRACE_ID);
+        this.traceId = MDC.get(TraceIdFilter.TRACE_ID);
     }
 
     public static <T> RetResult<T> success(T t) {

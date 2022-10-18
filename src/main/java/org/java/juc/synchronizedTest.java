@@ -1,4 +1,4 @@
-package com.zhc.springlearn.juc;
+package org.java.juc;
 
 public class synchronizedTest {
 

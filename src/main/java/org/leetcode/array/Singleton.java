@@ -1,4 +1,4 @@
-package com.zhc.springlearn.leetcode.array;
+package org.leetcode.array;
 
 public class Singleton {
 

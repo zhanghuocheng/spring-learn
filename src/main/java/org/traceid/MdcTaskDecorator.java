@@ -1,4 +1,4 @@
-package com.zhc.springlearn.traceid;
+package org.traceid;
 
 import org.slf4j.MDC;
 import org.springframework.core.task.TaskDecorator;
@@ -6,7 +6,7 @@ import org.springframework.core.task.TaskDecorator;
 import java.util.Map;
 import java.util.UUID;
 
-import static com.zhc.springlearn.traceid.TraceIdFilter.TRACE_ID;
+import static org.traceid.TraceIdFilter.TRACE_ID;
 
 public class MdcTaskDecorator implements TaskDecorator {
     @Override

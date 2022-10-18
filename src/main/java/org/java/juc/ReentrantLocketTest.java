@@ -1,6 +1,4 @@
-package com.zhc.springlearn.juc;
-
-import sun.misc.Unsafe;
+package org.java.juc;
 
 import java.util.concurrent.*;
 import java.util.concurrent.locks.ReentrantLock;
