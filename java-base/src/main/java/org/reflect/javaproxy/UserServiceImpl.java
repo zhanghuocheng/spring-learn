@@ -1,4 +1,4 @@
-package org.java.reflect.javaproxy;
+package org.reflect.javaproxy;
 
 public  class UserServiceImpl implements UserService {
     @Override

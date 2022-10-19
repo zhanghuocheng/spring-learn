@@ -1,4 +1,4 @@
-//package org.java.juc;
+//package org.juc;
 //
 //import lombok.SneakyThrows;
 //

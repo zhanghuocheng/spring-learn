@@ -1,8 +1,8 @@
-package org.java.reflect.cglib;
+package org.reflect.cglib;
 
 
-import org.java.reflect.javaproxy.UserService;
-import org.java.reflect.javaproxy.UserServiceImpl;
+import org.reflect.javaproxy.UserService;
+import org.reflect.javaproxy.UserServiceImpl;
 import org.springframework.cglib.proxy.Enhancer;
 
 public class Main2 {

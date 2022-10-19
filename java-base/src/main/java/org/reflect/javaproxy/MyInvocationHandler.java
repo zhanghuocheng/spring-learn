@@ -1,4 +1,4 @@
-package org.java.reflect.javaproxy;
+package org.reflect.javaproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -1,4 +1,4 @@
-package org.java.reflect.cglib;
+package org.reflect.cglib;
 
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;

@@ -1,4 +1,4 @@
-package org.java.reflect.javaproxy;
+package org.reflect.javaproxy;
 
 public  interface UserService {
     public String getName(int id);
