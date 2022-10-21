@@ -1,8 +1,6 @@
 package org.algorithm.arraylink;
 
 
-import java.util.List;
-
 public class ReverseList {
     static class ListNode {
         int val;

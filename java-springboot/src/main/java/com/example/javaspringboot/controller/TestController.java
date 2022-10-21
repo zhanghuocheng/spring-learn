@@ -1,12 +1,19 @@
 package com.example.javaspringboot.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.example.javaspringboot.Model.DoPostRequest;
+import com.example.javaspringboot.Model.DoPostResponse;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class TestController {
-    @GetMapping("/hello")
-    public String test(){
+    @GetMapping("/get")
+    public String test() {
         return "helloworld";
+    }
+
+
+    @PostMapping("doPost")
+    public DoPostResponse doPost(@RequestBody DoPostRequest doPostRequest) {
+        return DoPostResponse.builder().build();
     }
 }

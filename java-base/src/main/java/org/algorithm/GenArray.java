@@ -17,7 +17,7 @@ public class GenArray {
         Random random=new Random();
 
         for (int i = 0; i <len ; i++) {
-            array[i]=random.nextInt(100);
+            array[i]=i%2==0?random.nextInt(100):-random.nextInt(100);
         }
         return array;
     }
