@@ -1,7 +1,5 @@
 package org.algorithm.arraylink;
 
-import org.algorithm.GenArray;
-
 public class  TwoSum{
 
 //    public static void main(String[] args) {

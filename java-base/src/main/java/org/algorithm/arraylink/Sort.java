@@ -1,6 +1,6 @@
 package org.algorithm.arraylink;
 
-import org.algorithm.GenArray;
+import org.algorithm.base.GenArray;
 
 import java.util.Arrays;
 

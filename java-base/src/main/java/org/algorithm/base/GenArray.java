@@ -1,4 +1,4 @@
-package org.algorithm;
+package org.algorithm.base;
 
 import java.util.Arrays;
 import java.util.Random;

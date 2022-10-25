@@ -1,6 +1,6 @@
 package org.algorithm.dynamic;
 
-import org.algorithm.GenArray;
+import org.algorithm.base.GenArray;
 
 import java.util.Arrays;
 import java.util.HashMap;
