@@ -13,4 +13,10 @@ public class BaseResponse<T>  implements Serializable {
     private String msg;
     private Integer code;
     private T data;
+
+
+    public BaseResponse(String msg, Integer code) {
+        this.msg = msg;
+        this.code = code;
+    }
 }
