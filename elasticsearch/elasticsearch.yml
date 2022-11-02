@@ -1,0 +1,28 @@
+
+#集群名称
+cluster.name: my-application
+
+#节点名称
+node.name: node-1
+
+#节点属性
+node.master: true
+node.data: true
+#集群通信ip
+network.host: localhost
+
+#对外提供http端口
+http.port: 9203
+
+#集群通信节点
+transport.tcp.port: 9303
+#集群需要的配置
+# discovery.seed_hosts: ["localhost:9301"]
+# discovery.zen.fd.ping_timeout: 1m
+# discovery.zen.fd.ping_retries: 5 
+
+
+#跨域配置
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+
